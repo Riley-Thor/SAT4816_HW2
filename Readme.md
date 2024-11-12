@@ -1,7 +1,7 @@
 
 # Memory Search Script
 
-This script is used to analyze a memory dump using `volatility`. It provides multiple options to search for profile information, process IDs, process trees, network connections, and command executions from a given memory dump file.
+This is a Bash script designed to analyze a memory dump using `volatility`. It provides multiple options to search for profile information, process IDs, process trees, network connections, and command executions from a given memory dump file.
 
 ## Prerequisites
 
