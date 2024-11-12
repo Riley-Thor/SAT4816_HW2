@@ -35,7 +35,7 @@ This script is used to analyze a memory dump using `volatility`. It provides mul
    ./memory_search.sh 0
    ```
 
-![Screenshot 2024-11-12 170514](https://github.com/user-attachments/assets/276b22a9-adc1-4236-ad7a-fb92512fc65c)
+![Screenshot 2024-11-12 165708](https://github.com/user-attachments/assets/8e37f94b-db2e-4259-91ff-6127cbf6c0a6)
    
 2. **Search for a Specific Process ID**
    ```bash
@@ -43,7 +43,7 @@ This script is used to analyze a memory dump using `volatility`. It provides mul
    ```
    - This searches for the process with PID `1280` using the `Win7SP1x86_23418` profile.
 
-![Screenshot 2024-11-12 170421](https://github.com/user-attachments/assets/bf418248-5ade-4f6b-ba4d-282cbc816d9d)
+![Screenshot 2024-11-12 165841](https://github.com/user-attachments/assets/beb19218-a1e3-4c6d-bc56-44912d595967)
 
 3. **List All Processes**
    ```bash
@@ -51,7 +51,7 @@ This script is used to analyze a memory dump using `volatility`. It provides mul
    ```
    - Lists all processes without specifying a PID.
 
-![Screenshot 2024-11-12 170313](https://github.com/user-attachments/assets/3e3834e6-9b3e-4070-ad14-a668f2941c97)
+![Screenshot 2024-11-12 170000](https://github.com/user-attachments/assets/fdb23ed9-5b74-48fe-8b47-ea8da97fb6e4)
 
 4. **Search for a Process Tree**
    ```bash
@@ -67,7 +67,7 @@ This script is used to analyze a memory dump using `volatility`. It provides mul
    ```
    - This searches for network connections involving `sshd`.
 
-![Screenshot 2024-11-12 170000](https://github.com/user-attachments/assets/fdb23ed9-5b74-48fe-8b47-ea8da97fb6e4)
+![Screenshot 2024-11-12 170313](https://github.com/user-attachments/assets/3e3834e6-9b3e-4070-ad14-a668f2941c97)
 
 6. **Search for Command Executions**
    ```bash
@@ -75,14 +75,14 @@ This script is used to analyze a memory dump using `volatility`. It provides mul
    ```
    - Lists all command executions found in memory.
 
-![Screenshot 2024-11-12 165841](https://github.com/user-attachments/assets/beb19218-a1e3-4c6d-bc56-44912d595967)
+![Screenshot 2024-11-12 170421](https://github.com/user-attachments/assets/bf418248-5ade-4f6b-ba4d-282cbc816d9d)
    
    ```bash
    ./memory_search.sh 4 Win7SP1x86_23418 Cmd
    ```
    - Searches specifically for `Cmd` command executions.
 
-![Screenshot 2024-11-12 165708](https://github.com/user-attachments/assets/8e37f94b-db2e-4259-91ff-6127cbf6c0a6)
+![Screenshot 2024-11-12 170514](https://github.com/user-attachments/assets/276b22a9-adc1-4236-ad7a-fb92512fc65c)
 
 ### Common Errors
 
