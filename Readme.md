@@ -108,4 +108,4 @@ This is a Bash script designed to analyze a memory dump using `volatility`. It p
 
 ## Author
 
-Riley Meeves
+Riley
